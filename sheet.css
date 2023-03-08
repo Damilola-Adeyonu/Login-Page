@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    font-family:  montserrat;
+}
+
+container{
+    height: 400px;
+    width: 450px;
+    border: 1px solid black;
+   margin: auto;
+   margin-top: 100px;
+    display:block;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.form{
+    display: block;
+   
+    align-items: center;
+    justify-content: center;
+   
+   
+
+}
+h2{
+   margin-top: 20px;
+   padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid silver;
+}
+.form{
+    padding: 0 40px;
+   
+}
+
+.texta{
+    border-bottom: 1px solid black;
+    margin: 30px 0;
+}
+
+.texta input{
+    height: 40px;
+    width: 100%;
+    padding: 0 5px;
+    border: none;
+    background: none;
+    height: 30px;
+    
+}
+.endt{
+    margin: 5px 0 20px 5px;
+    opacity: 1;
+    cursor: pointer;
+}
+.endt input{
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color:#2691d9;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 16px;
+}
+.then{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+.then a{
+    text-decoration: none;
+    color: blue;
+}
+.then a:hover{
+    color: blueviolet ;
+    cursor: pointer;
+}
+
